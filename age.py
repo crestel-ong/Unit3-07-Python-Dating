@@ -12,11 +12,11 @@ def main():
     integer_as_string = input("Please enter your age: ")
 
     try:
-        # convert sring to integer
+        # convert string to integer
         user_age = int(integer_as_string)
 
         # process and output
-        if user_age > 25 and user_age < 40:
+        if user_age >= 25 and user_age <= 40:
             print("You are accepted to date my grandchild.")
         elif user_age < 25:
             print("You are too young!")
